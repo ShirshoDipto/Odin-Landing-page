@@ -1,0 +1,148 @@
+.container1, .container2, .container3, .container4, .header {
+    border: 2px solid red;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+.container1 {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container3 {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    border: 2px solid red;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div {
+    border: 2px solid red;
+}
+
+.header {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    border: 2px solid red;
+    flex: 1;
+}
+
+.left-header {
+    border: 2px solid red;
+}
+
+.right-header {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    border: 2px solid red;
+}
+
+.this-is-awesome {
+    border: 2px solid red;
+    flex: 1;
+    display: flex;
+}
+
+.awesome-left, .awesome-right {
+    border: 2px solid red;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.awesome-left div {
+    border: 2px solid red;
+}
+
+.container2-header {
+    border: 2px solid red;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2-contents {
+    border: 2px solid red;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.four-divs {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 5px solid blue;
+}
+
+.images-caption {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    align-items: center;
+    max-width: 110px;
+    text-align: center;
+}
+
+.contact-us {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    flex: 1;
+}
+
+.author {
+    border: 2px solid red;
+    align-self: flex-end;
+}
+
+.thor-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.author, .thor-text {
+    margin: 0 160px;
+}
